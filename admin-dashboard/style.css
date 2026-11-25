@@ -638,3 +638,19 @@ tbody tr.row-new {
     display: none !important;
   }
 }
+
+.wezitech-credit {
+  display: flex;
+  min-height: 1.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 12px;
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
+  color: inherit;
+  font: 400 11.5px/1.4 system-ui, sans-serif;
+  text-decoration: none;
+}
+.wezitech-credit strong { font-weight: 500; }
+.wezitech-credit:hover, .wezitech-credit:focus-visible { text-decoration: underline; }
+.wezitech-credit img { width: 16px; height: 13px; }
